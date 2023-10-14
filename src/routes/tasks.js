@@ -12,7 +12,7 @@ tasksRouter.post('/tasks', (req, res) => {
     .catch((error) => res.json({ message: error }));
 }); 
 
-//obtener todos los usuarios
+//obtener todos los tasks
 tasksRouter.get('/tasks', (req, res) => {
     userModel
     .find()

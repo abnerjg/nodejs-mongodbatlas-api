@@ -13,21 +13,21 @@ Content-Type: application/json
 GET http://localhost:9000/api/users HTTP/1.1
 
 ### buscar por Id especifico
-GET http://localhost:9000/api/users/6528c6e0e4ddd24b8102fd1e HTTP/1.1
+GET http://localhost:9000/api/users/6528c793e4ddd24b8102fd20 HTTP/1.1
 
 ### actualizar un usuario
 PUT http://localhost:9000/api/users/6528c6e0e4ddd24b8102fd1e HTTP/1.1
 Content-Type: application/json
 
 {
-    "name": "Jose Mario Perez",
+    "name": "Jose Mario Perez Martinez",
     "email": "prueba@gmail.com",
     "password": "99",
     "rol": "prueba"
 }
 
 ### borrar un usuario
-DELETE http://localhost:9000/api/users/652968d1a5df73c0cd8831ff HTTP/1.1
+DELETE http://localhost:9000/api/users/6529fcdb31b52468e80cf447 HTTP/1.1
 
 ### crear task
 POST http://localhost:9000/api/tasks HTTP/1.1
@@ -58,4 +58,4 @@ Content-Type: application/json
 }
 
 ### borrar una tasks
-DELETE http://localhost:9000/api/tasks/6529a9163b24d4efc51bdf09 HTTP/1.1
+DELETE http://localhost:9000/api/tasks/6529fdd831b52468e80cf452 HTTP/1.1

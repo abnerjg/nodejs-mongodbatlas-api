@@ -6,7 +6,7 @@ Content-Type: application/json
     "name": "Jonathan Jimenez",
     "email": "prueba@gmail.com",
     "password": "25",
-    "rol": "prueba"
+    "rol": "admin"
 }
 
 ### traer todos los usuarios

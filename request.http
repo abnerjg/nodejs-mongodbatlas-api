@@ -4,8 +4,8 @@ Content-Type: application/json
 
 {
     "name": "Jonathan Jimenez",
-    "email": "25",
-    "password": "prueba@gmail.com",
+    "email": "prueba@gmail.com",
+    "password": "25",
     "rol": "prueba"
 }
 
@@ -21,8 +21,8 @@ Content-Type: application/json
 
 {
     "name": "Jose Mario Perez",
-    "email": "99",
-    "password": "prueba@gmail.com",
+    "email": "prueba@gmail.com",
+    "password": "99",
     "rol": "prueba"
 }
 

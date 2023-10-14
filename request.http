@@ -1,0 +1,61 @@
+### crear usuario
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Jonathan Jimenez",
+    "email": "25",
+    "password": "prueba@gmail.com",
+    "rol": "prueba"
+}
+
+### traer todos los usuarios
+GET http://localhost:9000/api/users HTTP/1.1
+
+### buscar por Id especifico
+GET http://localhost:9000/api/users/6528c6e0e4ddd24b8102fd1e HTTP/1.1
+
+### actualizar un usuario
+PUT http://localhost:9000/api/users/6528c6e0e4ddd24b8102fd1e HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Jose Mario Perez",
+    "email": "99",
+    "password": "prueba@gmail.com",
+    "rol": "prueba"
+}
+
+### borrar un usuario
+DELETE http://localhost:9000/api/users/652968d1a5df73c0cd8831ff HTTP/1.1
+
+### crear task
+POST http://localhost:9000/api/tasks HTTP/1.1
+Content-Type: application/json
+
+{
+    "descripcion": "pagar planilla",
+    "estado": "completado",
+    "prioridad": "1",
+    "notadicional": "Resuelto"
+}
+
+### traer todas las tasks
+GET http://localhost:9000/api/tasks HTTP/1.1
+
+### buscar por Tasks especifico
+GET http://localhost:9000/api/tasks/6529ab0acf2267fb05aeccf7 HTTP/1.1
+
+### actualizar una tasks
+PUT http://localhost:9000/api/tasks/6529a9163b24d4efc51bdf09 HTTP/1.1
+Content-Type: application/json
+
+{
+    "descripcion": "pagar planilla",
+    "estado": "completado",
+    "prioridad": "1",
+    "notadicional": "Resuelto por am"
+}
+
+### borrar una tasks
+DELETE http://localhost:9000/api/tasks/6529a9163b24d4efc51bdf09 HTTP/1.1
